@@ -18,14 +18,19 @@ export const Events = {
 };
 
 export default {
-  onEvent: (event, callback) => {
+  addListener: (event, callback) => {
     if (typeof callback !== 'function') {
       console.error('callback function must be provided');
     }
     if (!Object.values(Events).find(e => e === event)) {
       console.error('invalid event');
     }
+    console.log('adding the event: ', event);
     return geofenceEventEmitter.addListener(event, callback);
+  },
+
+  removeListener: (event, callback) => {
+    return geofenceEventEmitter.removeListener(event, callback);
   },
 
   addGeofence: (geofenceObject) => {
