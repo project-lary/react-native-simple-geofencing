@@ -62,7 +62,7 @@ export const GeofenceKeys = {
   LONGITUDE: 'long',
   RADIUS: 'radius',
   TRANSITION_TYPES: 'transitionTypes',
-  EXPIRATION_DURATION_MILLIS: 'expirationDuration',
+  EXPIRATION_DURATION_MS: 'expirationDuration',
   LOITERING_DELAY_MS: 'loiteringDelay',
   INITIAL_TRIGGERS: 'initialTriggers',
 };
