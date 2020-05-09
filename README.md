@@ -1,5 +1,6 @@
 # react-native-geofencing
 Mirrors the Google Geofencing API for react-native use.
+https://developer.android.com/training/location/geofencing.html#RequestGeofences
 
 ## Only implemented and tested for ANDROID right now
 
