@@ -1,7 +1,7 @@
 {
   "name": "react-native-simple-geofencing",
   "title": "React Native Geofencing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Geofencing API for react native.",
   "main": "index.js",
   "scripts": {
