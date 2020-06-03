@@ -1,5 +1,5 @@
 {
-  "name": "react-native-geofencing",
+  "name": "react-native-simple-geofencing",
   "title": "React Native Geofencing",
   "version": "1.0.0",
   "description": "Google Geofencing API for react native.",
@@ -9,8 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-geofencing.git",
-    "baseUrl": "https://github.com/github_account/react-native-geofencing"
+    "url": "git+https://github.com/project-lary/react-native-simple-geofencing.git",
   },
   "keywords": [
     "react-native",
@@ -21,6 +20,7 @@
     "email": "jeniffer@project-lary.com"
   },
   "license": "MIT",
+  "homepage": "https://github.com/project-lary/react-native-simple-geofencing",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
