@@ -1,4 +1,4 @@
-# react-native-geofencing
+# react-native-simple-geofencing
 Mirrors the Google Geofencing API for react-native use.
 https://developer.android.com/training/location/geofencing.html#RequestGeofences
 
@@ -6,17 +6,17 @@ https://developer.android.com/training/location/geofencing.html#RequestGeofences
 
 ## Getting started
 
-`$ npm install react-native-geofencing --save`
+`$ npm install react-native-simple-geofencing --save`
 or
-`$ yarn add react-native-geofencing`
+`$ yarn add react-native-simple-geofencing`
 
 ### for react-native < v60.0.0
 
-`$ react-native link react-native-geofencing`
+`$ react-native link react-native-simple-geofencing`
 
 ## Usage
 ```javascript
-import Geofencing, { Events, GeofenceKeys } from 'react-native-geofencing';
+import Geofencing, { Events, GeofenceKeys } from 'react-native-simple-geofencing';
 
 // GeofenceObject
 const geofenceObject = {
