@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/project-lary/react-native-simple-geofencing.git",
+    "url": "git+https://github.com/project-lary/react-native-simple-geofencing.git"
   },
   "keywords": [
     "react-native",
